@@ -30,7 +30,7 @@ function Signup() {
         }
         //start call API
         try {
-            const url = "http://localhost:8080/auth/signup";
+            const url = "https://expense-tracker-marn-backend.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method : "POST",
                 headers: {'Content-Type':'application/json'},

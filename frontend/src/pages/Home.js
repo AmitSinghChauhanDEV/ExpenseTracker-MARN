@@ -24,7 +24,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://expense-tracker-marn-backend.vercel.app/auth/signup";
+            const url = "https://expense-tracker-marn-backend.vercel.app/";
             const headers = {
                 headers : {
                     'Authorization' : localStorage.getItem('token') //get token from local storage
